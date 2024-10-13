@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    margin-bottom: 1rem;
+    display: flex;
+    background-color: rgb(199, 140, 88);
+    justify-content: space-between;/*for ak div ko ak corner and dosra div ko dosra corner ma ,use this*/
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    list-style: none; /*for hiding bullet and create space between*/
+
+}
+
+ul li {
+    margin-right: 10px;
+}
+
+.mobile {
+    display: none;
+}
+
+.mobile-tabs {
+    display: none;
+}
+
+.toggle {
+    display: block;
+}
+
+@media only screen and (max-width: 500px) {
+    .mobile {
+        display: block
+    }
+
+    .nav-tabs {
+        display: none;
+    }
+}
